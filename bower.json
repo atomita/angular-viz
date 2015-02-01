@@ -1,6 +1,6 @@
 {
   "name": "angular-viz",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [
     "@ <sleeping.cait.sith+gh@gmail.com>"
   ],
@@ -16,6 +16,25 @@
   ],
   "dependencies": {
     "angular": "~1.3.6",
-    "viz": "https://raw.githubusercontent.com/mdaines/viz.js/gh-pages/viz.js"
+    "viz": "https://raw.githubusercontent.com/mdaines/viz.js/gh-pages/viz.js",
+    "fs": "~0.0.3",
+    "path": "~3.46.1",
+    "ws": "https://gist.githubusercontent.com/atomita/29c26db1d9f4b1952f7f/raw/a30d920fbf264e5429c546b1c95698f919f91c89/node2web_ws.js"
+  },
+  "rave": {
+    "missing": {
+      "viz": {
+        "name": "viz",
+        "main": "index.js",
+        "moduleType": ["node"],
+        "version": "0.0.0"
+      },
+      "ws": {
+        "name": "ws",
+        "main": "index.js",
+        "moduleType": ["node"],
+        "version": "0.0.0"
+      }
+    }
   }
 }

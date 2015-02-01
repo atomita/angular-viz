@@ -65,3 +65,6 @@ app.controller("ctrl", ["$scope", "$sce", "vizJs", ($scope, $sce, viz)->
     </body>
 </html>
 ```
+
+
+Note: If you want to use the rave.js, please use the ones that adopted [this change](https://github.com/RaveJS/rave/pull/70).
